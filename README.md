@@ -60,7 +60,7 @@ With Postgres running, restore a database using the `capstone.psql` file provide
 
 postgres=# CREATE DATABASE capstone;
 CREATE DATABASE 
-(myvenv) C:\Users\nx018125\Documents\GitHub\Solmaz-Heroku>psql -U postgres
+(myvenv) C:\Users\nx018125\Documents\GitHub\Solmaz-Heroku>psql capstone < capstone.psql  postgres
 
 ```bash
 createdb capstone
