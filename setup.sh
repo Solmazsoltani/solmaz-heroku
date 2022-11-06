@@ -1,9 +1,9 @@
 #!/bin/sh
-export AUTH0_DOMAIN="fsnd-kml.auth0.com"
-export ALGORITHMS="RS256"
-export API_AUDIENCE="capstone"
+set AUTH0_DOMAIN =dev-l9t-nzwv.us.auth0.com
+set ALGORITHMS = ['RS256']
+set API_AUDIENCE ='capstone'
 
-export DATABASE_URL="postgres:///capstone"
-export FLASK_APP=flaskr
-export FLASK_DEBUG=True
-export FLASK_ENVIRONMENT=debug
+set DATABASE_URL=DATABASE_URL=postgresql://postgres:123@localhost:5432/capstone
+set FLASK_APP=flaskr
+set FLASK_DEBUG=True
+set FLASK_ENVIRONMENT=debug
