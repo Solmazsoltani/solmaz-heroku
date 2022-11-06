@@ -36,7 +36,7 @@ The project adheres to the PEP 8 style guide and follows common best practices, 
 
 #### Installing Dependencies
 
-##### Python 3.7
+##### Python 3.10.8
 
 Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
@@ -54,6 +54,13 @@ This will install all of the required packages we selected within the `requireme
 
 #### Database Setup
 With Postgres running, restore a database using the `capstone.psql` file provided. In terminal run:
+
+
+(myvenv) C:\Users\nx018125\Documents\GitHub\Solmaz-Heroku>psql -U postgres
+
+postgres=# CREATE DATABASE capstone;
+CREATE DATABASE 
+(myvenv) C:\Users\nx018125\Documents\GitHub\Solmaz-Heroku>psql -U postgres
 
 ```bash
 createdb capstone
@@ -130,7 +137,9 @@ https://{{YOUR_DOMAIN}}/authorize?audience={{API_IDENTIFIER}}&response_type=toke
 2. Install the dependencies:
 
     ```bash
+    
     pip install -r requirements.txt
+    
     ```
 3. Configure database path to connect local postgres database in `models.py`
 
